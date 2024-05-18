@@ -7,5 +7,5 @@ using TravelManagement.Shared.Abstractions.Commands;
 
 namespace TravelManagement.Application.Commands
 {
-	public record TakeItems(Guid TravelerCheckListID, string Name) : ICommand;
+	public record TakeItem(Guid TravelerCheckListId, string Name) : ICommand;
 }

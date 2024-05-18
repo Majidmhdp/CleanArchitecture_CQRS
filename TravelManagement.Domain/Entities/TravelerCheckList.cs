@@ -86,7 +86,7 @@ namespace TravelManagement.Domain.Entities
 			return item;
 		}
 
-		private void RemoveItem(string itemName)
+		public void RemoveItem(string itemName)
 		{
 			var item = GetItem(itemName);
 			_items.Remove(item);
