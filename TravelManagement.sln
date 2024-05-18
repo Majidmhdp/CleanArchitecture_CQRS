@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelManagement.Domain", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{12A8F2A0-9AE5-421F-843D-D247E1C24087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelManagement.Shared.Abstractions", "TravelManagement.Shared.Abstractions\TravelManagement.Shared.Abstractions.csproj", "{F06D9B7E-217A-4EE3-AF0E-907520E55195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelManagement.Shared.Abstractions", "TravelManagement.Shared.Abstractions\TravelManagement.Shared.Abstractions.csproj", "{F06D9B7E-217A-4EE3-AF0E-907520E55195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelManagement.Application", "TravelManagement.Application\TravelManagement.Application.csproj", "{170E28D2-38F0-4EE4-A088-76E4A66A5CD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{F06D9B7E-217A-4EE3-AF0E-907520E55195}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F06D9B7E-217A-4EE3-AF0E-907520E55195}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F06D9B7E-217A-4EE3-AF0E-907520E55195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170E28D2-38F0-4EE4-A088-76E4A66A5CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170E28D2-38F0-4EE4-A088-76E4A66A5CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170E28D2-38F0-4EE4-A088-76E4A66A5CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170E28D2-38F0-4EE4-A088-76E4A66A5CD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
